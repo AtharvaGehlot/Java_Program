@@ -1,6 +1,6 @@
 // the emain using string
 import java.util.*; 
-public class Main{
+public class Main(1){
      
     public static void main(String[] args)
     {
