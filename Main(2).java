@@ -1,7 +1,7 @@
 // Using string convert a text into lower or uppwr case;
 
 import java.util.*;
-class Main{
+class Main(2){
     
     public static void main(String[] args)
     {
