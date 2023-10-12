@@ -1,0 +1,44 @@
+//Design an interface for a calculator 
+interface calc
+{
+   public void add(double a ,double b);
+   public void sub(double a ,double b);
+   public void mult(double a ,double b);
+   public void div(double a ,double b);
+   
+}
+
+public class G implements calc
+{
+    public void add(double a,double b)
+    {
+        System.out.println("The addition is = "+(a+b));
+    }
+    
+    public void sub(double a ,double b)
+    {
+        System.out.println("The subtraction is = "+(a-b));
+    }
+    
+    public void mult(double a ,double b)
+    {
+        System.out.println("The multiplication is = "+(a+b));
+    }
+    
+    public void div(double a ,double b)
+    {
+        System.out.println("The division is = "+(a/b));
+    }
+    
+    public static void main(String[] args)
+    {
+        calc calc = new G();
+        double a=26.00;
+        double b=12.07;
+        
+        calc.add(a,b);
+        calc.sub(a,b);
+        calc.mult(a,b);
+        calc.div(a,b);
+    }
+}
