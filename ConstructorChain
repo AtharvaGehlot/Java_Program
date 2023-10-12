@@ -1,0 +1,17 @@
+public class ConstructorChain
+{
+    ConstructorChain()
+    {
+        this("Hello");
+        System.out.println("Default Contructor called");
+    }
+    ConstructorChain(String str)
+    {
+        System.out.println("Parametered Constructor called");
+    }
+    
+    public static void main(String[] args)
+    {
+        ConstructorChain cc=new ConstructorChain();
+    }
+}
