@@ -1,0 +1,18 @@
+public class Main extends Thread
+{
+    public static void main(String[] args)
+  {
+      Main thread=new Main();
+      thread.start();
+      System.out.println("The table is :-");
+      
+  } 
+  
+   public void run()
+    {
+        for(int i=1;i<=10;i++)
+        {
+            System.out.println("2"+" * "+i+" = "+2*i);
+        }
+    }
+}
