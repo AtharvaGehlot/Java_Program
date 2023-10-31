@@ -1,0 +1,26 @@
+class ThreadCount extends Thread{
+    ThreadCount(String s){
+        super(s);
+        System.out.println("New thread created"+this);
+        start();
+    }
+    public void run(){
+        try{
+            for(int i=0;i<10;i++){
+                System.out.println("New thread created "+this);
+                Thread.sleep(1500);
+            }
+        }
+        catch(Exception e){
+            System.out.println("Currently executing thread is interupped");
+        }
+        System.out.println("Currently executing thread is terminated");
+    }
+}
+
+public class Main
+{
+    ThreadCount o1=new ThreadCount("Thread 1");
+    ThreadCount o2=new ThreadCount("Thread 2");
+    
+}
