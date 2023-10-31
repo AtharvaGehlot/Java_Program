@@ -1,0 +1,7 @@
+public class Main extends Thread
+{
+    class void Run()
+    {
+     System.out.println("this code is running");    
+    }
+}
