@@ -1,0 +1,16 @@
+public class Main implements Runnable
+{
+    public ststic void main(String[] args)
+    {
+        Main obj=new Main();
+        Thread thread =new Thread(obj);
+        thread.start();
+        System.out.println("this cod is running")
+    }
+    
+    public void run()
+    {
+        system.out.println("this code is running in thread");
+    }
+}
+
