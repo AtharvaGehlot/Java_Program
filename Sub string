@@ -1,0 +1,11 @@
+class Main
+{
+	public static void main(String[] args) {
+		String s1=" Aamir";
+		System.out.println("First String"+s1);
+		String s2=" Ali";
+		System.out.println("Second String"+s2);
+		System.out.println(s1.substring(1,4));
+		System.out.println(s2.substring(2,4));
+	}
+}
