@@ -1,0 +1,13 @@
+public class Ex {
+    public void printArray(String[] s) {
+        for (int i = 0; i < s.length; i++) {
+            System.out.println(s[i]);
+        }
+    }
+
+    public static void main(String[] args) {
+        Ex ex = new Ex();
+        String[] animals = new String[] { "cat", "dog", "cow" };
+        ex.printArray(animals);
+    }
+}
